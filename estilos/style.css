@@ -56,3 +56,70 @@ section#login > div#formulario{
     padding: 10px;
 }
 
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+div#formulario > p{
+    font-size: 0.8em ;
+}
+
+form > div.campo{
+   background-color: #5f2c82; 
+   display: block;
+   width: 100%;
+   height: 40px;
+   border-radius: 5px;
+   margin: 5px 0px;
+   color: white;
+}
+
+div.campo > label{
+    display: none;
+}
+
+input#preencher{
+    width: 40%;
+}
+
+form > input[type=submit]{
+    display: block;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #49a09d;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+} 
+
+form > input[type=submit]:hover{
+    background-color: #24504e;
+
+}
+
+form >a.botao{
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height:40px;
+    color: #24504e ;
+    background-color:white;       
+    margin-top: 5px;
+    padding-top: 5px;
+    border: 1px solid #49a09d;
+    border-radius: 5px;
+    text-decoration: none;
+    padding-top: 10px;
+}
+form > a.botao:hover{
+    background-color:#5ac5c2;  
+}
+
+
+form > a.botao > i{
+    font-size: 0.8em;
+}

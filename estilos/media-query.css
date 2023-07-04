@@ -27,6 +27,10 @@ Grande Telas: acima de 1200px
         width: 70%;
     }
 
+    div#formulario > p{
+        font-size: 1.2em ;
+    }
+
 }
 
 @media screen and (min-width: 992px){    
@@ -35,17 +39,28 @@ Grande Telas: acima de 1200px
     }
     section#login{
         width: 950px;
+
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#fromulario{
-        float: right;
-        width: 100%;
+        float: left;       
+        width: 50%;    
+
+    }
+    div#formulario > h1{
+        font-size: 2em ;
+    }
+    div#formulario > p{
+        font-size: 1.2em ;
+    }
+    form{
+        width: 49%;
     }
 
 }
